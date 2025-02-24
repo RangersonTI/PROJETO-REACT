@@ -1,2 +1,3 @@
 export* from './navBar/NavBar'
-export* from './barraDeFerramentas/BarraDeFerramentas'
+export* from './ferramentasDaListagem/FerramentasDaListagem'
+export * from './ferramentasDeDetalhe/FerramentasDeDetalhe'
