@@ -55,12 +55,12 @@ export const FerramentasDeDetalhe: React.FC<IFerramentasDeDetalheProps> =({
     aoClicarEmBotaoApagar,
     aoClicarEmBotaoVoltar
 }) =>{
-    
+
     const theme = useTheme();
     const lgDown = useMediaQuery(theme.breakpoints.down('lg'))
     const smDown = useMediaQuery(theme.breakpoints.down('sm'))
     const mdDown = useMediaQuery(theme.breakpoints.down('md'))
-    
+
     return(
         <Box
             component={Paper}
