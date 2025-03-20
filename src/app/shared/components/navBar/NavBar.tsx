@@ -17,7 +17,7 @@ export const NavBar: React.FC<{children: React.ReactNode}> = ({children}) =>{
         <>
             <Drawer open={isDrawerOpen} variant={smDown? 'temporary':'permanent'} onClose={toggleDrawerOpen}>
                 <Box width={theme.spacing(28)} display={"flex"} flexDirection={"column"} height={theme.spacing(20)}>
-                    <Box width={"100%"} 
+                    <Box
                         height={theme.spacing(30)}
                         display={"flex"}
                         alignItems={"center"}
@@ -33,7 +33,7 @@ export const NavBar: React.FC<{children: React.ReactNode}> = ({children}) =>{
                             variant="square"
                         >R</Avatar>
                     </Box>
-                    
+
                     <Divider/>
                     <Box flex={1}>
                         <List component="nav" aria-label="main mailbox folders">
